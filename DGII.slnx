@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="DGII.API/DGII.API.csproj" />
+  <Project Path="DGII.Application/DGII.Application.csproj" />
+  <Project Path="DGII.Domain/DGII.Domain.csproj" />
+  <Project Path="DGII.Infrastructure/DGII.Infrastructure.csproj" />
+</Solution>
