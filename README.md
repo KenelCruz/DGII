@@ -2,7 +2,7 @@
 
 > API REST para la gestión de contribuyentes y comprobantes fiscales de la Dirección General de Impuestos Internos (DGII) de República Dominicana.
 
-[![.NET](https://img.shields.io/badge/.NET-8.0-512BD4?style=flat&logo=dotnet)](https://dotnet.microsoft.com/)
+[![.NET](https://img.shields.io/badge/.NET-10.0-512BD4?style=flat&logo=dotnet)](https://dotnet.microsoft.com/)
 [![Entity Framework](https://img.shields.io/badge/Entity%20Framework-Core-512BD4?style=flat)](https://docs.microsoft.com/en-us/ef/core/)
 [![SQLite](https://img.shields.io/badge/SQLite-3-003B57?style=flat&logo=sqlite)](https://www.sqlite.org/)
 [![Angular](https://img.shields.io/badge/Angular-17-DD0031?style=flat&logo=angular)](https://angular.io/)
@@ -68,9 +68,9 @@ Sistema desarrollado como prueba técnica para la DGII que permite:
 
 | Tecnología | Versión | Propósito |
 |------------|---------|-----------|
-| .NET Core | 8.0 | Framework principal |
-| ASP.NET Core Web API | 8.0 | Creación de API REST |
-| Entity Framework Core | 8.0 | ORM para base de datos |
+| .NET Core | 10.0 | Framework principal |
+| ASP.NET Core Web API | 10.0 | Creación de API REST |
+| Entity Framework Core | 10.0 | ORM para base de datos |
 | SQLite | 3 | Base de datos (desarrollo) |
 | Swagger/OpenAPI | 6.5 | Documentación de API |
 | Serilog | - | Sistema de logging |
@@ -191,7 +191,7 @@ DGII-Solution/
 
 Asegúrate de tener instalado:
 
-- ✅ [.NET SDK 8.0+](https://dotnet.microsoft.com/download)
+- ✅ [.NET SDK 10.0+](https://dotnet.microsoft.com/download)
 - ✅ [Visual Studio 2022](https://visualstudio.microsoft.com/) o [VS Code](https://code.visualstudio.com/)
 - ✅ [Node.js 18+](https://nodejs.org/) (para Angular)
 - ✅ [Angular CLI](https://angular.io/cli) (`npm install -g @angular/cli`)
@@ -478,11 +478,6 @@ policy.WithOrigins("http://localhost:4200")
 context.Database.EnsureCreated();
 ```
 
----
-
-## 📄 Licencia
-
-Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) para más detalles.
 
 ---
 
@@ -491,7 +486,7 @@ Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) par
 **Kenel Cruz**
 
 - 🐙 GitHub: [@KenelCruz](https://github.com/KenelCruz)
-- 📧 Email: [kenelcruz@gmail.com]
+- 📧 Email: [tkenelcruz@gmail.com]
 
 
 ---
@@ -514,7 +509,6 @@ Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) par
 
 <div align="center">
 
-**⭐ Si te gustó este proyecto, dale una estrella en GitHub ⭐**
 
 Hecho con ❤️ por [Kenel Cruz](https://github.com/KenelCruz)
 
